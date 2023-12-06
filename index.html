@@ -5,14 +5,105 @@
 
         <title>TecBlog</title>
         <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="estilo.css">
+        <link rel="stylesheet" type="text/css" href="CSS/estilo.css">
 
     </head>
 
     <body>
 
-        <div>
-            
+        <!--CABEÇALHO-->
+
+        <div id="area-cabecalho">
+
+            <div id="area-logo">
+                <h1>Tec<span class="branco">Blog</span></h1>
+            </div>
+            <div id="area-menu">
+                <a href="index.html">Home</a>
+                <a href="jogos.html">Jogos</a>
+                <a href="celulares.html">Smartphones</a>
+                <a href="informatica.html">Informática</a>
+                <a href="eletronicos.html">Eletrônicos</a>
+            </div>
+
+        </div>
+
+        <!--ÁREA PRINCIPAL DO CONTEÚDO DA PÁGINA "HOME"-->
+
+        <div id="area-principal">
+
+            <div id="area-postagens">
+
+                <!--ABERTURA POSTAGEM-->
+                <div class="postagem">
+                    <h2>Título da Postagem 1</h2>
+                    <span class="data-postagem">Postado xx xx xxxx</span>
+                    <img src="ImagenstecBlog/imagem1.jpg" width="620px">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Aliquam sapien sapien, sagittis sit amet ex et, congue faucibus justo. 
+                        Curabitur eget auctor tellus. Nam nec luctus erat. Donec velit dui, 
+                        suscipit non mattis sed, congue id urna. Vivamus at est imperdiet mauris 
+                        suscipit posuere a at turpis. Fusce et nisi id tellus scelerisque tincidunt at in ligula.
+                    </p>
+                    <a href="" style="color: blue;">Leia mais</a>
+                </div>
+                <!--//FIM POSTAGEM\\-->
+
+                <!--ABERTURA POSTAGEM-->
+                <div class="postagem">
+                    <h2>Título da Postagem 2</h2>
+                    <span class="data-postagem">Postado xx xx xxxx</span>
+                    <img src="ImagenstecBlog/imagem2.jpg" width="620px">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Aliquam sapien sapien, sagittis sit amet ex et, congue faucibus justo. 
+                        Curabitur eget auctor tellus. Nam nec luctus erat. Donec velit dui, 
+                        suscipit non mattis sed, congue id urna. Vivamus at est imperdiet mauris 
+                        suscipit posuere a at turpis. Fusce et nisi id tellus scelerisque tincidunt at in ligula.
+                    </p>
+                    <a href="" style="color: blue;">Leia mais</a>
+                </div>
+                <!--//FIM POSTAGEM\\-->
+                
+            </div>
+
+            <div id="area-lateral">
+
+                <div class="conteudo-lateral">
+                    <h3>Postagens recentes</h3>
+                    <div>
+                        <p class="texto-postagem-lateral">Lorem ipsum dolor sit amet, 
+                        consectetur adipiscing elit.
+                        </p>
+                        <a href="" style="color: blue;">Leia mais</a>
+                    </div>
+                    <hr>
+                    <div>
+                        <p class="texto-postagem-lateral">Lorem ipsum dolor sit amet, 
+                        consectetur adipiscing elit.
+                        </p>
+                        <a href="" style="color: blue;">Leia mais</a>
+                    </div>
+                </div>
+
+                <div class="conteudo-lateral">
+                    <h3>Categorias</h3>
+                    <!--Cores colocadas manualmente nos links porque deu erro em algo no CSS, mas eu não encontrei-->
+                    <a href="index.html" style="color:blue">Home🏠</a><br>
+                    <a href="jogos.html" style="color: blue;">Jogos🎮</a><br>
+                    <a href="celulares.html" style="color: blue;">Smartphones📱</a><br>
+                    <a href="informatica.html" style="color: blue;">Informática💻</a><br>
+                    <a href="eletronicos.html" style="color: blue;">Eletrônicos💾</a><br>
+
+                </div>
+                
+            </div>
+
+            <div id="rodape">
+                Todos os direitos reservados
+            </div>
+
         </div>
 
     </body>
